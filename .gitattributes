@@ -1,0 +1,13 @@
+# Ignore C++ files from GitHub language statistics
+*.cpp linguist-vendored
+*.c linguist-vendored
+*.h linguist-vendored
+*.hpp linguist-vendored
+*.cc linguist-vendored
+
+# Ignore CMake files from GitHub language statistics
+CMakeLists.txt linguist-vendored
+*.cmake linguist-vendored
+
+# Set Dart as the primary language
+*.dart linguist-detectable
